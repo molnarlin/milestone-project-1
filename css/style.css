@@ -1,0 +1,39 @@
+
+
+/* Social media icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #e6ccff;
+  }
+  
+  /* Add a hover effect */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+/*copyright styling*/
+#copyright {
+ text-align: center;
+}
+
+@media screen (min-width: 600px){
+    #burger-nav{
+        display: none;
+    }
+}
+
+@media screen (max-width: 600px){
+    #big-screen-nav{
+        display: none;
+    }
+
+    #bottom-nav{
+        display: none;
+    }
+}
+
