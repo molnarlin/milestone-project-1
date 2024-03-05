@@ -10,55 +10,32 @@
 </head>
 <body>
     <header>
-        <nav id="burger-nav" class="navbar bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="/index.html">Katalin Molnar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Katalin Molnar</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/index.html">About me</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="/resume.html">Resumé</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/skills.html">Skills</a>
-                      </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        <nav id="big-screen-nav" class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="/index.html">Katalin Molnar</a>
-              <ul class="nav justify-content-end nav-pills">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/index.html">About me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/resume.html">Resumé</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/skills.html">Skills</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Katalin Molnar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resumé</a>
+              </li>
+        <li class="nav-item">
+                <a class="nav-link" href="skills.html">Skills</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main></main>
     <footer>
-        <div class="container-md">
             <div class="row">   
-            <div id="bottom-nav" class="col">
+            <div id="bottom-nav" class="col-3">
                 <ul class="list-group list-group-flush">
                     <h5>Site map</h5>
                     <li class="list-group-item"><a href="/index.html">Home</a></li>
@@ -66,18 +43,16 @@
                     <li class="list-group-item"><a href="/skills.html">Skills</a></li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-2">
                 <button type="button" class="btn btn-info btn-lg"><a href="/">Download my CV in pdf</a></button>
             </div>
-            <div class="col">
-                <ul>
-                    <li><a href="#" class="fa fa-linkedin">LinkedIn</a></li>
-                    <li><a href="#" class="fa fa-pinterest">Pinterest</a></li>
-                    <li><a href="#" class="fa fa-github">GitHub</a></li>
-                    <li><a href="#" class="fa fa-instagram">Instagram</a></li>
-                </ul>
+            <div class="col-4">
+                  <a href="#" class="fa fa-linkedin">LinkedIn</a>
+                  <a href="#" class="fa fa-pinterest">Pinterest</a>
+                  <a href="#" class="fa fa-github">GitHub</a>
+                  <a href="#" class="fa fa-instagram">Instagram</a>
             </div>
-            <div class="col">
+            <div class="col-3">
               <h5>Contact me</h5>
                 <div class="mb-3">
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
@@ -90,7 +65,6 @@
                   </div>
             </div>
         </div>
-    </div>
     <div class="row">
         <div class="col" id="copyright">
             <p>Copyright © Katalin Molnar 2024</p>

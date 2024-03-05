@@ -1,8 +1,28 @@
 
+/*Navigation styling*/
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #034f84;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #034f84 !important;
+  }
 
+footer{
+    background: green;
+}
 /* Social media icons*/
+
 .fa {
     padding: 20px;
+    margin: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
@@ -21,19 +41,4 @@
  text-align: center;
 }
 
-@media only screen and (min-width: 600px){
-    #burger-nav{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    #big-screen-nav{
-        display: none;
-    }
-
-    #bottom-nav{
-        display: none;
-    }
-}
 
