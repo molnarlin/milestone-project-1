@@ -15,53 +15,84 @@
     color: #034f84 !important;
   }
 
+#navbarSupportedContent{
+    margin-left: 400px;
+  }
+
+
 .bg-1 {
     background-color: #92a8d1;
     color: #ffffff;
   }
 
-  #index-main {
+#index-main {
     padding-top: 70px;
     padding-bottom: 70px;
-    }
+  }
   
-   img{
+img{
     width: 200px;
     height: 200px;
-    }
+  }
   
-  .blockquote {
+.blockquote {
     padding-top: 50px;
   }
   
-  #about-me-text {
+#about-me-text {
      text-align: justify;
   }
-  
+
 footer{
     background: #034f84;
-}
+  }
 /* Social media icons*/
 
 .fa {
     padding: 20px;
-    margin: 20px;
+    margin: 30px;
     font-size: 30px;
-    width: 50px;
+    width: 70px;
     text-align: center;
     text-decoration: none;
-    color: white;
-    background: #360664;
+    color: #034f84;
+    background: #f7cac9;
+    border-radius: 50%;
   }
   
   /* Add a hover effect */
-  .fa:hover {
-    opacity: 0.7;
+.fa:hover {
+    opacity: 0.5;
   }
-  
+
+.list-group-item > a{
+    color: #92a8d1;
+  }
+ 
+.list-group-item {
+    padding-top: 20px;
+    border-color: #034f84;
+    background: #034f84;
+  }
+ 
+.list-group-item-heading {
+    margin-top: 30px;
+     color: #92a8d1;
+  }
+ 
+button > a {
+      color: white;
+  }
+ 
+#contact-header{
+      color:#92a8d1;
+  }
+
 /*copyright styling*/
+
 #copyright {
  text-align: center;
-}
+ color: #92a8d1;
+  }
 
 
