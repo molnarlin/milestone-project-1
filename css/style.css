@@ -11,12 +11,35 @@
     color: #034f84;
   }
   
-  .navbar-nav li a:hover {
+.navbar-nav li a:hover {
     color: #034f84 !important;
   }
 
+.bg-1 {
+    background-color: #92a8d1;
+    color: #ffffff;
+  }
+
+  #index-main {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+  
+   img{
+    width: 200px;
+    height: 200px;
+    }
+  
+  .blockquote {
+    padding-top: 50px;
+  }
+  
+  #about-me-text {
+     text-align: justify;
+  }
+  
 footer{
-    background: green;
+    background: #034f84;
 }
 /* Social media icons*/
 
