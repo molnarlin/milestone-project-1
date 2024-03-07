@@ -19,7 +19,6 @@
     margin-left: 400px;
   }
 
-
 .bg-1 {
     background-color: #92a8d1;
     color: #ffffff;
@@ -48,7 +47,7 @@ footer{
   }
 /* Social media icons*/
 
-.fa {
+.fa-brands {
     padding: 20px;
     margin: 30px;
     font-size: 30px;
@@ -61,7 +60,7 @@ footer{
   }
   
   /* Add a hover effect */
-.fa:hover {
+.fa-brands:hover {
     opacity: 0.5;
   }
 
@@ -95,4 +94,18 @@ button > a {
  color: #92a8d1;
   }
 
+.progress {
+    height: 20px;
+    margin: 25px;
+ }
+ 
+.fa-regular {
+     font-size: 40px;
+     padding-left: 50px;
+ }
+ 
+td {
+     padding-top: 40px;
+     padding-left: 50px;
+ }
 
