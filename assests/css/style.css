@@ -27,6 +27,11 @@ body {
     color: #ffffff;
   }
 
+.bg-2 {
+  background-color: #ffffff;
+  color:black;
+}
+
 #index-main {
     padding-top: 70px;
     padding-bottom: 70px;

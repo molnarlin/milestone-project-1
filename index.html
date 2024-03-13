@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katalin Molnar portfolio website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">About me</a>
+                <a class="nav-link" aria-current="page" href="index.html">About me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="resume.html">Resumé</a>
@@ -39,7 +39,7 @@
    <div class="container-fluid bg-1 text-center">
     <div class="row" id="index-main">
       <div class="col-6 offset-1">
-        <img src="images/profpic2.jpg" class="img-fluid rounded-circle" alt="Profile picture"/>
+        <img src="assests/images/profpic2.jpg" class="img-fluid rounded-circle" alt="Profile picture"/>
         <br>
         <figure class="text-center">
           <blockquote class="blockquote">
@@ -56,42 +56,358 @@
           courses. At the moment I study with Code Institute and Runshaw College. This is going to be my portfolio website.</p>
       </div>
    </div>
+   <div class="container-fluid bg-2">
+    <div class="row">
+      <div class="col-3 offset-1">
+      <!--First card starts here -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Early career</h5>
+            <p class="card-text">As a student I had different jobs as well. Please check them here.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firstBackdrop">
+            See more
+            </button>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="firstBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="firstBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="firstBackdropLabel">Early career</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Horticultural worker</h5>
+                <p>Erfurt, Germany</p>
+                <p>07/2003 - 09/2003</p>
+                <p>Working on a farm with Leonardo da Vinci program in Germany.</p>
+                <h5>Assistant economiest</h5>
+                <p>Warsaw, Poland</p>
+                <p>07/2005 - 09/2005</p>
+                <p>Helping with wetland protection projects with Leonardo da Vinci program in Poland.</p>
+                <h5>Plant selling assistant</h5>
+                <p>Oazis Kft - Budapest, Hungary</p>
+                <p>01/2011 - 03/2011</p>
+                <p>Working in a flower/potted plants market, selling plants for florists, other companies.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-3 offset-1">
+    <!--Second card starts here-->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Administration jobs</h5>
+        <p class="card-text">Collected some experience in different administration job, worked in different systems as well.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#secondBackdrop">
+          See more
+        </button>
+  
+        <!-- Modal -->
+      <div class="modal fade" id="secondBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="secondBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="secondBackdropLabel">Administration jobs</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h5>Office Administrator</h5>
+              <p>Inter-Europa Bank - Budapest, Hungary</p>
+              <p>10/2007 - 12/2007</p>
+              <p>Worked with customers' data in the Bank`s own system and in Excel. Worked together with colleagues to transport data from an old system to a new one.</p>
+              <h5>Master Data Specialist</h5>
+              <p>Nalco Hungary Kft -Budapest, Hungary</p>
+              <p>07/2008 - 06/2010</p>
+              <p>Worked with customers' data in SAP, contacted people in different countries in English, German and Hungarian. 
+              Worked on different projects to clean and organize the data in the system. Made training materials for the new employee.</p>
+              <h5>Technical Editor</h5>
+              <p>Semcon Kft. - Budapest, Hungary</p>
+              <p>05/2011 - 08/2012</p>
+              <p>Editing and writing user`s manual of agricultural machines in English. Worked in XML Editor and reported in Excel.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="col-3 offset-1">
+    <!--Third card starts here-->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Hospitality jobs</h5>
+        <p class="card-text">I have more years experience in hospitality industry / customer service. Please see more details here.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thirdBackdrop">
+          See more
+        </button>
+  
+        <!-- Modal -->
+          <div class="modal fade" id="thirdBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="thirdBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="thirdBackdropLabel">Hospitality jobs</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h5>McDonald's Ltd. - Budapest, Hungary</h5>
+                  <p>04/2001 - 08/2001</p>
+                  <p>Food preparation, sale and maintenance of restaurant cleanliness.</p>
+                  <h5>General Assistant</h5>
+                  <p>The Manor Adventure - Craven Arms, UK</p>
+                  <p>09/2012 - 12/2014</p>
+                  <p>Serving hot and cold food for schools. Preparing food for serving times. Maintenance of cleanliness in the kitchen, and in the food serving area.</p>
+                  <h5>Kitchen assistant, coffee shop assistant</h5>
+                  <p>Castle Lodge Buttery - Ludlow, UK</p>
+                  <p>02/2015 - 06/2016</p>
+                  <p>Preparing and making food, maintenance of cleanliness of the kitchen. When I worked front of house, I served customers, and take part in the maintenance of the cleanliness of the coffee shop.</p>
+                  <h5>Chef de cousin</h5>
+                  <p>200 Degress Coffee Shop Ltd - Birmingham, UK</p>
+                  <p>08/2016 - 11/2018</p>
+                  <p>Cooking vegetables, meat, soups, preparing salads, sandwiches, supporting coffee shop with homemade syrups, scones, traybakes. Maintenance of the cleanliness in the kitchen.</p>
+                  <h5>Cook, barista, front of house staff</h5>
+                  <p>The Deli Collective - Sutton Coldfield, UK</p>
+                  <p>12/2018 - 10/2019</p>
+                  <p>Cooking food for the coffee shop, preparing toasties, salads, sandwiches, breakfast, serving customers, making coffee, maintenance of the cleanliness in the whole coffee shop area.</p>
+                  <h5>Cook</h5>
+                  <p>Melbourne Cafe Ltd. - Lichfield, UK</p>
+                  <p>06/2020 - 04/2021</p>
+                  <p>Cooking food for the coffee shop, preparing sandwiches, cakes, savory dishes, serving customers, making coffee, maintenance of the cleanliness in the whole coffee shop area.</p>
+                  <h5>Agency Hospitality Assistant</h5>
+                  <p>Berkeley Scott - Birmingham, UK</p>
+                  <p>09/2019 - 03/2023</p>
+                  <p>Working for this agency, doing different kind of BOH, FOH jobs.</p>
+                  <h5>Kitchen Assistant</h5>
+                  <p>Compass Group - Birmingham, UK</p>
+                  <p>09/2021 - 04/2023</p>
+                  <p>Preparing food and serving in a school. Occasionally helping out with other duties in the kitchen.</p>
+                  <h5>Catering Assistant</h5>
+                  <p>The Arthur Terry Learning Partnership - Birmingham, UK</p>
+                  <p>04/2023 - 01/2024</p>
+                  <p>Working in a school's kitchen</p>
+                  <h5>Agency Hospitality Assistant</h5>
+                  <p>Syft/Indeed Flex - Birmingham, UK</p>
+                  <p>11/2018 - present</p>
+                  <p>Working for this agency, doing different kind of BOH, FOH jobs.</p>
+                  <h5>Hospitality Assistant</h5>
+                  <p>Berkeley Scott - Birmingham, UK</p>
+                  <p>01/2024 - present</p>
+                  <p>Working for this agency, doing different kind of BOH, FOH jobs.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4 offset-2">
+    <!--Forth card starts here-->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Education</h5>
+          <p class="card-text">You can check my education history here.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#forthBackdrop">
+            See more
+          </button>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="forthBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="forthBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="forthBackdropLabel">Education</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h5>GSCE or equivalent in Mathematics</h5>
+                  <p>Szinyei Merse Pal Grammar School - Budapest, Hungary</p>
+                  <p>1995 - 1999</p>
+                  <h5>MSc in Horticulture</h5>
+                  <p>Corvinus University of Budapest, Hungary</p>
+                  <p>09/2001 - 06/2007</p>
+                  <h5>City & Guilds Level 2 Diploma in ICT Systems and Principles</h5>
+                  <h5>City & Guilds Level 2 Diploma in ICT Systems Support</h5>
+                  <p>JBC Training - UK</p>
+                  <p>05/2020 - 06/2020</p>
+                  <h5>Basic in Software Development</h5>
+                  <p>Tech Talent Academy - Birmingham, UK</p>
+                  <p>11/2020 - 02/2021</p>
+                  <h5>Level 5 Diploma in Web Application Development</h5>
+                  <p>Code Institute and Runshaw College</p>
+                  <p>01/2024 - 11/2024</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 offset-2">
+    <!--Fifth card starts here-->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Projects on GitHub</h5>
+          <p class="card-text">Please check my projects on GitHub</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fifthBackdrop">
+            See more
+          </button>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="fifthBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fifthBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="fifthBackdropLabel">Projects on GitHub</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h5>My portfolio project(this one)</h5>
+                  <p>This is a Bootstrap project with my CV, skills, click <a href="https://github.com/molnarlin/milestone-project-1">here</a> to see it.</p>
+                  <h5>Collection of small projects</h5>
+                  <p>We got some basic coding projects during classes. I collected them <a href="https://github.com/molnarlin/playground">in this repository</a></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-1">
+  <div class="row">
+    <div class="col-5 offset-1">
+    <h2>Skills</h2>
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 85%">HTML</div>
+        </div>
+      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info" style="width: 80%">CSS</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 75%">JavaScript</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 10%">Python</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Dark example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-dark" style="width: 10%">C#</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Primary example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-primary" style="width: 25%">SQL</div>
+      </div>
+      <h2>Frameworks</h2>
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 85%">Bootstrap</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-dark" style="width: 20%">React</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 25%">JQuery</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-secondary" style="width: 10%">Django</div>
+      </div>
+    </div>
+  <div class="col-5">
+    <table class="tabel table-borderless">
+      <thead>
+      <h2>Soft skills</h2>
+      </thead>
+      <tbody>
+        <tr>
+          <td><h5>Problem solving</h5>
+          </td>
+          <td><i class="fa-regular fa-circle-check"></i>
+          </td>
+        </tr>
+        <tr>
+          <td><h5>Time management</h5>
+          </td>
+          <td><i class="fa-regular fa-circle-check"></i>
+          </td>
+        </tr>
+        <tr>
+          <td><h5>Collaboration</h5>
+          </td>
+          <td><i class="fa-regular fa-circle-check"></i>
+          </td>
+        </tr>
+        <tr>
+          <td><h5>Good communication</h5>
+          </td>
+          <td><i class="fa-regular fa-circle-check"></i>
+          </td>
+        </tr>
+        <tr>
+          <td><h5>Adaptability</h5>
+          </td>
+          <td><i class="fa-regular fa-circle-check"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+<div class="container-fluid bg-2">
+<div class=row>
+  <div class="col-4 offset-4">
+  <h5 id="contact-header">Contact me</h5>
+  <div class="mb-3 input-group">
+    <span class="input-group-text" id="name1">Name:</span>
+    <input type="text" class="form-control" area-describedby="name1" id="nameInput" placeholder="Your name" required>
+  </div>
+  <div class="mb-3 input-group">
+    <span class="input-group-text" id="email1">Email:</span>
+    <input type="email" class="form-control" id="emailInput" area-describedby="email1" placeholder="Your email address" required>
+  </div>
+  <div class="mb-3 input-group">
+    <textarea class="form-control" id="textInput" rows="3" placeholder="Please say a few words about your idea." required></textarea>
+  </div>
+  <div class="mb-3 input-group">
+    <button type="submit" class="btn btn-secondary mb-3">Send</button>
+    </div>
+    </div>
+</div></div>
   </main>
   <footer>
     <div class="row">   
-      <div id="bottom-nav" class="col-1 offset-1">
-          <ul class="list-group">
-            <h5 class="list-group-item-heading">Site map</h5>
-            <li class="list-group-item"><a href="index.html" class="text-decoration-none">Home</a></li>
-            <li class="list-group-item"><a href="resume.html" class="text-decoration-none">Resumé</a></li>
-            <li class="list-group-item"><a href="skills.html" class="text-decoration-none">Skills</a></li>
-          </ul>
+      <div class="col-2 offset-3 d-flex align-items-center">
+          <button type="button" class=" btn btn-secondary btn-lg"><a class="text-decoration-none" href="assests/attachments/Katalin-Molnár.pdf">Download my CV in pdf</a></button>
       </div>
-      <div class="col-2 d-flex align-items-center">
-          <button type="button" class=" btn btn-secondary btn-lg"><a class="text-decoration-none" href="Katalin-Molnár.pdf">Download my CV in pdf</a></button>
-      </div>
-      <div class="col-4 d-flex align-items-center">
+      <div class="col-4 offset-3 d-flex align-items-center">
         <a href="www.linkedin.com/in/katalin-molnar-b6a694165" class="fa-brands fa-linkedin"></a>
         <a href="https://www.pinterest.co.uk/molnarlin/" class="fa-brands fa-pinterest"></a>
         <a href="https://github.com/molnarlin" class="fa-brands fa-github"></a>
         <a href="https://www.instagram.com/molnarlin0605/" class="fa-brands fa-instagram"></a>
-      </div>
-      <div class="col-3">
-        <h5 id="contact-header">Contact me</h5>
-        <div class="mb-3 input-group">
-          <span class="input-group-text" id="name1">Name:</span>
-          <input type="text" class="form-control" area-describedby="name1" id="nameInput" placeholder="Your name" required>
-        </div>
-        <div class="mb-3 input-group">
-          <span class="input-group-text" id="email1">Email:</span>
-          <input type="email" class="form-control" id="emailInput" area-describedby="email1" placeholder="Your email address" required>
-        </div>
-        <div class="mb-3 input-group">
-          <textarea class="form-control" id="textInput" rows="3" placeholder="Please say a few words about your idea." required></textarea>
-        </div>
-        <div class="mb-3 input-group">
-          <button type="submit" class="btn btn-secondary mb-3">Send</button>
-          </div>
       </div>
       <div class="col-12 justify-content-center" id="copyright">
           <p>Copyright © Katalin Molnar 2024</p>
