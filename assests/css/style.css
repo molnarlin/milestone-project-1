@@ -12,6 +12,9 @@ body {
     font-size: 20px;
     letter-spacing: 5px;
     color: #034f84;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
   }
   
 .navbar-nav li a:hover {
@@ -19,7 +22,7 @@ body {
   }
 
 #navbarSupportedContent{
-    margin-left: 400px;
+    margin-left: 80%;
   }
 
 .bg-1 {
@@ -29,14 +32,14 @@ body {
 
 .bg-2 {
   background-color: #ffffff;
-  color:black;
+  color:#034f84;
 }
 
 #index-main {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
   }
-  
+
 img{
     width: 200px;
     height: 200px;
