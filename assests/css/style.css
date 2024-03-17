@@ -66,7 +66,18 @@ img{
   
 #about-me-text {
      text-align: justify;
+     font-family: "Sofadi One", serif;
+     font-size: 21px;
+     color: #034f8f;
   }
+
+.card-text {
+    font-weight: 600;
+}
+   
+.card-title{
+    font-weight: 500;
+}
 
 #resume {
     height: 35rem;
