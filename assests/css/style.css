@@ -58,6 +58,7 @@ img{
   
 .blockquote {
     padding-top: 50px;
+    font-family: "Truculenta", sans-serif;
   }
 
 #customerReviews{
@@ -66,7 +67,7 @@ img{
   
 #about-me-text {
      text-align: justify;
-     font-family: "Sofadi One", serif;
+     font-family: "Truculenta", sans-serif;
      font-size: 21px;
      color: #034f8f;
   }
