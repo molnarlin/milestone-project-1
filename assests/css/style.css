@@ -26,6 +26,11 @@ body {
     margin-left: 65rem;
   }
 
+  h2 {
+    padding-top: 3rem;
+    padding-bottom: 0;
+ }
+
 .bg-1 {
     background-color: #92a8d1;
     color: #ffffff;
@@ -58,23 +63,25 @@ img{
 #customerReviews{
   height: 40rem;
 }
-
-#resume {
-  height: 30rem;
-}
   
 #about-me-text {
      text-align: justify;
   }
 
-#skills{
-    padding: 10rem auto;
+#resume {
+    height: 35rem;
 }
 
 footer{
     background: #034f84;
   }
 /* Social media icons*/
+.fa-message {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #034f84;
+}
 
 .fa-brands {
     padding: 20px;
@@ -111,9 +118,7 @@ footer{
 button > a {
       color: white;
   }
-#skills{
-    padding: 5rem;
-  }
+
 #contact-header{
       color:#ffffff;
       padding-top: 3rem;
@@ -144,6 +149,10 @@ td {
 
 .card{
 	width: 22rem;
-	margin: 50px 0;
+  height: 15rem;
+  background: #f7cac9;
+  margin-top:0;
+	margin-bottom: 5rem;
+  justify-content: baseline;
 }
 
