@@ -15,6 +15,7 @@ body {
     position: fixed;
     width: 100%;
     background-color: #ffffff;
+    z-index: 1;
   }
   
 .navbar-nav li a:hover {
@@ -22,7 +23,7 @@ body {
   }
 
 #navbarSupportedContent{
-    margin-left: 60%;
+    margin-left: 65rem;
   }
 
 .bg-1 {
@@ -31,13 +32,18 @@ body {
   }
 
 .bg-2 {
-  background-color: #ffffff;
-  color:#034f84;
+  background-color: #034f8f;
+  color: #ffffff;
+}
+
+.bg-3 {
+  background-color: #9fa6b2;
+  color:#034f8f;
 }
 
 #index-main {
-    padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-top: 14rem;
+    padding-bottom: 9rem;
   }
 
 img{
@@ -48,10 +54,22 @@ img{
 .blockquote {
     padding-top: 50px;
   }
+
+#customerReviews{
+  height: 40rem;
+}
+
+#resume {
+  height: 30rem;
+}
   
 #about-me-text {
      text-align: justify;
   }
+
+#skills{
+    padding: 10rem auto;
+}
 
 footer{
     background: #034f84;
@@ -93,9 +111,13 @@ footer{
 button > a {
       color: white;
   }
- 
+#skills{
+    padding: 5rem;
+  }
 #contact-header{
-      color:#92a8d1;
+      color:#ffffff;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
   }
 
 /*copyright styling*/

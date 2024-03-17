@@ -60,8 +60,40 @@
       </div>
    </div>
    <div class="container-fluid bg-2">
-    <div class="row">
-      <h2 id="resume">Resumé</h2>
+    <div class="row text-center" id="customerReviews">
+      <h2>What customers say:</h2>
+      <div class="col-3 offset-1">
+        <div class="card">
+          <img src="" class="card-img-top" alt="First customer">
+          <div class="card-body">
+          <h5 class="card-title">John Doe</h5>
+          <p class="card-text">"Kate helped us to go online, and reach new customers."</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3 offset-1">
+      <div class="card">
+        <img src="" class="card-img-top" alt="Second customer">
+        <div class="card-body">
+        <h5 class="card-title">Jane Smith</h5>
+        <p class="card-text">"We got everything, what a good website needs, and our customers love it!"</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3 offset-1">
+    <div class="card">
+      <img src="" class="card-img-top" alt="Third customer">
+      <div class="card-body">
+      <h5 class="card-title">Kamora Ochoa</h5>
+      <p class="card-text">"We needed new things in our business, and a new website was a good investment!"</p>
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+   <div class="container-fluid bg-3">
+    <div class="row" id="resume">
+      <h2 >Resumé</h2>
       <div class="col-3 offset-1">
       <!--First card starts here -->
         <div class="card">
@@ -304,7 +336,7 @@
     </div>
   </div>
 </div>
-<div class="container-fluid bg-1" id="skills">
+<div class="container-fluid bg-2" id="skills">
   <div class="row">
     <div class="col-5 offset-1">
     <h2>Skills</h2>
@@ -381,9 +413,10 @@
   </div>
 </div>
 </div>
-<div class="container-fluid bg-2">
+<div class="container-fluid bg-1">
 <div class=row>
   <div class="col-4 offset-4">
+    <form method="POST" action="">
   <h5 id="contact-header">Contact me</h5>
   <div class="mb-3 input-group">
     <span class="input-group-text" id="name1">Name:</span>
@@ -397,21 +430,23 @@
     <textarea class="form-control" id="textInput" rows="3" placeholder="Please say a few words about your idea." required></textarea>
   </div>
   <div class="mb-3 input-group">
-    <button type="submit" class="btn btn-secondary mb-3">Send</button>
+    <button type="submit" onclick="alert('Your form has been submitted.')" formtarget="_self" class="btn btn-secondary mb-3">Send</button>
     </div>
-    </div>
-</div></div>
+    </form>
+  </div>
+</div>
+</div>
   </main>
   <footer>
     <div class="row">   
       <div class="col-2 offset-1 d-flex align-items-center">
-          <button type="button" class=" btn btn-secondary btn-lg"><a class="text-decoration-none" href="assests/attachments/Katalin-Molnár.pdf">Download my CV in pdf</a></button>
+          <button type="button" class=" btn btn-secondary btn-lg"><a class="text-decoration-none" href="assests/attachments/Katalin-Molnár.pdf" target="_blank">Download my CV in pdf</a></button>
       </div>
       <div class="col-4 offset-5 d-flex align-items-center">
-        <a href="linkedin.com/in/katalin-molnar-b6a694165" class="fa-brands fa-linkedin"></a>
-        <a href="https://www.pinterest.co.uk/molnarlin/" class="fa-brands fa-pinterest"></a>
-        <a href="https://github.com/molnarlin" class="fa-brands fa-github"></a>
-        <a href="https://www.instagram.com/molnarlin0605/" class="fa-brands fa-instagram"></a>
+        <a href="www.linkedin.com" class="fa-brands fa-linkedin" target="_blank"></a>
+        <a href="https://www.pinterest.co.uk/molnarlin/" class="fa-brands fa-pinterest" target="_blank"></a>
+        <a href="https://github.com/molnarlin" class="fa-brands fa-github" target="_blank"></a>
+        <a href="https://www.instagram.com/molnarlin0605/" class="fa-brands fa-instagram" target="_blank"></a>
       </div>
       <div class="col-12 justify-content-center" id="copyright">
           <p>Copyright © Katalin Molnar 2024</p>
