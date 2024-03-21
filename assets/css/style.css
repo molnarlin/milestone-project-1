@@ -22,11 +22,6 @@ html, body {
     color: #034f84 !important;
   }
 
-  h2 {
-    padding-top: 3rem;
-    padding-bottom: 0;
- }
-
 .bg-1 {
     background-color: #92a8d1;
     color: #ffffff;
@@ -37,10 +32,6 @@ html, body {
   color: #ffffff;
 }
 
-.bg-3 {
-  background-color: #9fa6b2;
-  color:#034f8f;
-}
 
 #index-main {
     padding-top: 15rem;
@@ -70,10 +61,6 @@ img{
    
 .card-title{
     font-weight: 500;
-}
-
-#resume {
-    height: 35rem;
 }
 
 footer{
@@ -155,8 +142,6 @@ td {
 	width: 22rem;
   height: 15rem;
   background: #f7cac9;
-  margin-top:0;
-	margin-bottom: 5rem;
   justify-content: baseline;
 }
 
