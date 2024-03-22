@@ -142,7 +142,7 @@ td {
 	width: 22rem;
   height: 15rem;
   background: #f7cac9;
-  justify-content: baseline;
+  justify-content:last baseline;
 }
 
 
