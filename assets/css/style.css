@@ -3,6 +3,7 @@ html, body {
   font-weight: 400;
   overflow-x: hidden;
 }
+
 /*Navigation styling*/
 .navbar {
     padding-top: 15px;
@@ -16,44 +17,52 @@ html, body {
     width: 100%;
     background-color: #ffffff;
     z-index: 1;
-  }
+}
   
 .navbar-nav li a:hover {
     color: #034f84 !important;
-  }
+}
 
+/*Main colors*/
 .bg-1 {
     background-color: #92a8d1;
     color: #ffffff;
-  }
+}
 
 .bg-2 {
   background-color: #034f8f;
   color: #ffffff;
 }
 
-
+/* First section*/
 #index-main {
     padding-top: 15rem;
     padding-bottom: 5rem;
-  }
+}
 
 img{
     width: 200px;
     height: 200px;
-  }
+}
   
 .blockquote {
     padding-top: 50px;
     font-family: "Truculenta", sans-serif;
-  }
+}
   
 #about-me-text {
      text-align: justify;
      font-family: "Truculenta", sans-serif;
      font-size: 21px;
      color: #034f8f;
-  }
+}
+
+/* Card styling*/
+.card{
+	width: 22rem;
+  height: 15rem;
+  background: #f7cac9;
+}
 
 .card-text {
     font-weight: 600;
@@ -63,9 +72,11 @@ img{
     font-weight: 500;
 }
 
+/* Footer styling */
 footer{
     background: #034f84;
-  }
+}
+
 /* Social media icons*/
 .fa-message {
   font-size: 50px;
@@ -84,73 +95,48 @@ footer{
     color: #034f84;
     background: #f7cac9;
     border-radius: 50%;
-  }
+}
   
-  /* Add a hover effect */
+/* Add a hover effect */
 .fa-brands:hover {
     opacity: 0.5;
-  }
+}
 
-.list-group-item > a{
-    color: #92a8d1;
-  }
- 
-.list-group-item {
-    padding-top: 20px;
-    border-color: #034f84;
-    background: #034f84;
-  }
- 
-.list-group-item-heading {
-    margin-top: 30px;
-     color: #92a8d1;
-  }
- 
-button > a {
-      color: white;
-  }
-
+/* Form styling */
 #contact-header{
       color:#ffffff;
       padding-top: 3rem;
       padding-bottom: 2rem;
-  }
+}
 
 /*copyright styling*/
-
 #copyright {
  text-align: center;
  color: #92a8d1;
-  }
+}
 
+/*Skills section styling*/
 .progress {
     height: 20px;
     margin: 25px;
- }
+}
  
 .fa-regular {
      font-size: 40px;
      padding-left: 50px;
- }
+}
  
 td {
      padding-top: 40px;
      padding-left: 50px;
- }
-
-.card{
-	width: 22rem;
-  height: 15rem;
-  background: #f7cac9;
 }
-
 
 @media only screen and (max-width: 1393px){
   #about-me-text{
-   clear: both;
+    clear: both;
   }
- #image-with-quote{
- clear: both;
- }
- }
+  #image-with-quote{
+    clear: both;
+  }
+}
 
