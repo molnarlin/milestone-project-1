@@ -44,19 +44,26 @@ html, body {
 }
 
 img {
-  width: 20%;
+  width: auto;
   height: 20%;
 }
+
+img:hover {
+  transform: scaleX(-1);
+}
+
 /* Card styling*/
 .card{
 	width: 22rem;
   height: 15rem;
   background: #f7cac9;
+  clear: both;
 }
 
 /* Footer styling */
 footer{
     background: #034f84;
+    clear: both;
 }
 
 .fa-message {
