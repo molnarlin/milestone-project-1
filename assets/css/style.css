@@ -43,6 +43,10 @@ html, body {
      text-align: justify;
 }
 
+img {
+  width: 20%;
+  height: 20%;
+}
 /* Card styling*/
 .card{
 	width: 22rem;
@@ -62,7 +66,7 @@ footer{
 /* Social media icons*/
 .fa-brands {
     padding: 20px;
-    margin: 30px;
+    margin: 20px;
     width: 70px;
     color: #034f84;
     background: #f7cac9;
