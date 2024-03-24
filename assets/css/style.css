@@ -40,6 +40,7 @@ html, body {
 #about-me-text {
      font-family: "Truculenta", sans-serif;
      color: #034f8f;
+     text-align: justify;
 }
 
 /* Card styling*/
@@ -66,6 +67,7 @@ footer{
     color: #034f84;
     background: #f7cac9;
     border-radius: 50%;
+    text-decoration: none;
 }
   
 /* Add a hover effect */
@@ -76,6 +78,8 @@ footer{
 /* Form styling */
 #contact-header{
       color:#ffffff;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
 }
 
 /*copyright styling*/
