@@ -6,15 +6,8 @@ html, body {
 
 /*Navigation styling*/
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    font-size: 20px;
     letter-spacing: 5px;
     color: #034f84;
-    position: fixed;
-    width: 100%;
     background-color: #ffffff;
     z-index: 1;
 }
@@ -39,21 +32,13 @@ html, body {
     padding-top: 15rem;
     padding-bottom: 5rem;
 }
-
-img{
-    width: 200px;
-    height: 200px;
-}
   
 .blockquote {
-    padding-top: 50px;
     font-family: "Truculenta", sans-serif;
 }
   
 #about-me-text {
-     text-align: justify;
      font-family: "Truculenta", sans-serif;
-     font-size: 21px;
      color: #034f8f;
 }
 
@@ -64,37 +49,22 @@ img{
   background: #f7cac9;
 }
 
-.card-text {
-    font-weight: 600;
-}
-   
-.card-title{
-    font-weight: 500;
-}
-
 /* Footer styling */
 footer{
     background: #034f84;
 }
 
-/* Social media icons*/
 .fa-message {
-  font-size: 50px;
-  text-align: center;
-  text-decoration: none;
   color: #034f84;
 }
 
+/* Social media icons*/
 .fa-brands {
     padding: 20px;
     margin: 30px;
-    font-size: 30px;
     width: 70px;
-    text-align: center;
-    text-decoration: none;
     color: #034f84;
     background: #f7cac9;
-    border-radius: 50%;
 }
   
 /* Add a hover effect */
@@ -105,13 +75,10 @@ footer{
 /* Form styling */
 #contact-header{
       color:#ffffff;
-      padding-top: 3rem;
-      padding-bottom: 2rem;
 }
 
 /*copyright styling*/
 #copyright {
- text-align: center;
  color: #92a8d1;
 }
 
@@ -122,7 +89,6 @@ footer{
 }
  
 .fa-regular {
-     font-size: 40px;
      padding-left: 50px;
 }
  
