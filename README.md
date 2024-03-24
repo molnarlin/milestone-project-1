@@ -10,28 +10,45 @@ As a users I can easily navigate through the different webpages, and learn about
 ### Design choices
 This is a User Centric Frontend Development project. Used semantic markup to structure HTML code. The code is split into readable, separated lines, and I included comments in main sections. I used Bootstrap in the design, which has lots of pre-written code, so speeds up the process, gives ideas to the layout, compatible with the browsers, and it is easy to make a responsive design with it.
 * I used Lato and Truculenta from fonts.google.com.
-* 
+* I used blue (`#034f84` and `#92a8d1`), grey(`#6C757D`), pink (`#f7cac9`) white (`#ffffff`) and black(`#000000`) colour palette for this project.
 ### Wireframes
 I used Balsamiq to create my wireframe, which you can check here [Link to the wireframe](/Milestone-project1.pdf). There are wireframes for 3 different screen sizes, and my project contains more sections, so peolpe can scroll down to read them. I modified my wireframe a couple of times, this is the latest version. This wireframe helped me to position things and organize my content.
 ## 2. Features
 ### 1. Existing features
   * Easy to use navigation bar. It is in a fixed position on the top of the website. 
+
   ![Screenshot of the navigation bar](assets/images/readme_images/navbar.png)
+
   * I picture of me and some introduction text with a quote, so people can learn more about me.
+
   ![Screenshot of the About me part](assets/images/readme_images/intro.png)
+
   * Next one is the review setion, when people speak about my work.
+
   ![Screenshot of the Review section](assets/images/readme_images/review.png)
+
   * In the Resume section I categorized my job experiences, so people can open and read only small parts of my resume. 
+
   ![Screenshot of resume section](assets/images/readme_images/resume.png)
+
   If they click on See more, a model opens up for them.
+
   ![Screenshot of a modal](assets/images/readme_images/resume_modal.png)
+
   * I made a list of my skills in the skills section with colourful graphics.
+
   ![Screenshot of the skills section](assets/images/readme_images/skills.png)
+
   * I included a Contact form to fill in, and people can email me, if they have an idea of a project or they want to ask me anything. 
+
   ![Screenshot of the contact form](assets/images/readme_images/contact_form.png)
+
   * Downloadable CV, if anybody needs my CV in pdf format. 
+
   ![Screenshot of the download button](assets/images/readme_images/cv_download.png)
+
   * Links to my social media sites, which open in separate tabs. 
+
   ![Screenshot of social media buttons](assets/images/readme_images/social_media.png)
 ### 2.  Future features
 * I was thinking to connect my GitHub projects to this site, so that future employers can check them out here, and they don't need to go to GitHub. 
