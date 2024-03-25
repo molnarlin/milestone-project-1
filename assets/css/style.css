@@ -56,7 +56,7 @@ img:hover {
 .card{
 	width: 22rem;
   height: 15rem;
-  background: #f7cac9;
+  background: #f33a6a;
   clear: both;
 }
 
@@ -76,7 +76,7 @@ footer{
     margin: 20px;
     width: 70px;
     color: #034f84;
-    background: #f7cac9;
+    background: #f33a6a;
     border-radius: 50%;
     text-decoration: none;
 }
