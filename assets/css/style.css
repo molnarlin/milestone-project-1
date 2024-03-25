@@ -44,7 +44,7 @@ html, body {
 }
 
 img {
-  width: 20rem;
+  width: 15rem;
   height: auto;
 }
 
@@ -56,7 +56,7 @@ img:hover {
 .card{
 	width: 22rem;
   height: 15rem;
-  background: #ffaec8;
+  background: #ffaec8 !important;
   clear: both;
 }
 
