@@ -10,7 +10,7 @@ As a users I can easily navigate through the different webpages, and learn about
 ### Design choices
 This is a User Centric Frontend Development project. Used semantic markup to structure HTML code. The code is split into readable, separated lines, and I included comments in main sections. I used Bootstrap in the design, which has lots of pre-written code, so speeds up the process, gives ideas to the layout, compatible with the browsers, and it is easy to make a responsive design with it.
 * I used Lato and Truculenta from fonts.google.com.
-* I used blue (`#034f84` and `#92a8d1`), grey(`#6C757D`), pink (`#f33a6a`) white (`#ffffff`) and black(`#000000`) colour palette for this project.
+* I used blue (`#034f84` and `#92a8d1`), grey(`#6C757D`), pink (`#ffaec8`) white (`#ffffff`) and black(`#000000`) colour palette for this project.
 ![Screenshot of the color palette](assets/images/readme_images/color_palette.png)
 ### Wireframes
 I used Balsamiq to create my wireframe, which you can check here [Link to the wireframe](/Milestone-project1.pdf). There are wireframes for 3 different screen sizes, and my project contains more sections, so peolpe can scroll down to read them. I modified my wireframe a couple of times, this is the latest version. This wireframe helped me to position things and organize my content.
