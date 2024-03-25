@@ -58,6 +58,7 @@ img:hover {
   height: 15rem;
   background: #ffaec8 !important;
   clear: both;
+  opacity: 0.85;
 }
 
 /* Footer styling */
