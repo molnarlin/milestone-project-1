@@ -13,11 +13,12 @@ This is a User Centric Frontend Development project. Used semantic markup to str
 * I used blue (`#034f84` and `#92a8d1`), grey(`#6C757D`), pink (`#ffaec8`) white (`#ffffff`) and black(`#000000`) colour palette for this project. This color combination has a sense of tranquility effect on readers. 
 ![Screenshot of the color palette](assets/images/readme_images/color_palette.png)
 * This is a single-page design, what I think is more modern. People can just scroll down, if they want to read more. My webpage doesn't contain too much information, and recruiters can read it on mobile devices as well.
-* visual hierarchy
-* media sections
-* interaction design
+* Visual hierarchy
+First the user can see the navigation menu on the top of the website. It contains links to different sections, and it's a fixed element,  so it's visible for users all the time. After this I have the introduction section with my picture,  a short description about my motivation and what I'm doing at the moment. I have a quote as well, what is a good motivation to everyone. Next section is a short review about my work. After this comes my resume section with my work experiences. In the next section users can check my skills. After this I have a short contact form, if anybody wants to contact me. In the last section I have a button to download my CV in PDF and links to my social media accounts.
+* I didn't use too many media elements,  only my profile picture. This is a black and white picture and it blends well with the colour palette. 
+* There are more ways to interact with this website. The navigation bar contains links to the different parts of the website. The resume section have 5 modals, so people can open them. I have a contact form, so people can contact me through the website. I have a button to download my CV, and finally I have social media buttons, so people can check my online presence. 
 * accessibility consideration
-* graphics
+* I tried to use lots of graphic elements,  so users don't need to read everything. I tried to use different colours as well, so people can be engaged more with the website. 
 ### Wireframes
 I used Balsamiq to create my wireframe, which you can check here [Link to the wireframe](/Milestone-project1.pdf). There are wireframes for 3 different screen sizes, and my project contains more sections, so people can scroll down to read them. I modified my wireframe a couple of times, this is the latest version. This wireframe helped me to position things and organize my content.
 ## 2. Features
