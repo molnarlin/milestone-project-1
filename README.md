@@ -2,18 +2,24 @@
 This is the first milestone project for Runshaw College and Code Institute.
 ## 1. UX
 ### Project goals
-Hi! This is my portfolio website. I created a simple site about my skillsets and work experiences, so potential future employers can check my CV, and see how I improved my skills, and knowledge about web development. In the first part I want to introduce my personality and tell a littlebit about myself. The next part is about my work history. Here I made 5 categories, and visitors can check them in more details if they are interested. The third page is about my programming skills, how well I know the different programming languages, frameworks, and any other soft skills, that are important in a job, and learned them while working in other industries. 
+Hi! This is my portfolio website. I created a simple site about my skillsets and work experiences, so potential future employers can check my CV, and see how I improved my skills, and knowledge about web development. In the first part, I want to introduce my personality and tell a little bit about myself. The next part is about my work history. Here I made 5 categories, and visitors can check them in more detail if they are interested. The third page is about my programming skills, how well I know the different programming languages, frameworks, and any other soft skills, that are important in a job, and learned them while working in other industries. 
 ### Developer and business goals
-As a developer, I wanted to create a user-friendly website, so I tried to use more graphic elements than text, but something, that still explains my message, and is engaging. Also, this message should be well organized and checked in different screen sizes. So if the content was too long, I was breaking it up into smaller pieces, which is easier to digest.
+As a developer, I wanted to create a user-friendly website, so I tried to use more graphic elements than text, but something, that still explains my message, and is engaging. Also, this message should be well organized and readable in different screen sizes. So if the content was too long, I was breaking it up into smaller pieces, which is easier to digest.
 ### User stories
-As a users I can easily navigate through the different webpages, and learn about Katalin as a candidate for a job. I can use the main navigation menu and a layout helps me to read trough and find information about Katalin. There are many graphics elements to find the way to the contents. 
+As a user I can easily navigate through the webpage, scroll down and learn about Katalin as a candidate for a job. I can use the main navigation menu and the layout helps me to read through and find information about Katalin. There are many graphics elements to guide my attention to the different contents on the page. 
 ### Design choices
-This is a User Centric Frontend Development project. Used semantic markup to structure HTML code. The code is split into readable, separated lines, and I included comments in main sections. I used Bootstrap in the design, which has lots of pre-written code, so speeds up the process, gives ideas to the layout, compatible with the browsers, and it is easy to make a responsive design with it.
-* I used Lato and Truculenta from fonts.google.com.
-* I used blue (`#034f84` and `#92a8d1`), grey(`#6C757D`), pink (`#ffaec8`) white (`#ffffff`) and black(`#000000`) colour palette for this project.
+This is a User Centric Frontend Development project. Used semantic markup to structure HTML code. The code is split into readable, separated lines, and I included comments in the main sections. I used Bootstrap in the design, which has lots of pre-written code, so speeds up the process, gives ideas to the layout, compatible with the browsers, and it's easy to make a responsive design with it.
+* I used Lato and Truculenta from fonts.google.com. These fonts are easy to read on variuos device screens.
+* I used blue (`#034f84` and `#92a8d1`), grey(`#6C757D`), pink (`#ffaec8`) white (`#ffffff`) and black(`#000000`) colour palette for this project. This color combination has a sense of tranquility effect on readers. 
 ![Screenshot of the color palette](assets/images/readme_images/color_palette.png)
+* This is a single-page design, what I think is more modern. People can just scroll down, if they want to read more. My webpage doesn't contain too much information, and recruiters can read it on mobile devices as well.
+* visual hierarchy
+* media sections
+* interaction design
+* accessibility consideration
+* graphics
 ### Wireframes
-I used Balsamiq to create my wireframe, which you can check here [Link to the wireframe](/Milestone-project1.pdf). There are wireframes for 3 different screen sizes, and my project contains more sections, so peolpe can scroll down to read them. I modified my wireframe a couple of times, this is the latest version. This wireframe helped me to position things and organize my content.
+I used Balsamiq to create my wireframe, which you can check here [Link to the wireframe](/Milestone-project1.pdf). There are wireframes for 3 different screen sizes, and my project contains more sections, so people can scroll down to read them. I modified my wireframe a couple of times, this is the latest version. This wireframe helped me to position things and organize my content.
 ## 2. Features
 ### 1. Existing features
   * Easy to use navigation bar. It is in a fixed position on the top of the website. 
@@ -24,7 +30,7 @@ I used Balsamiq to create my wireframe, which you can check here [Link to the wi
 
   ![Screenshot of the About me part](assets/images/readme_images/intro.png)
 
-  * Next one is the review setion, when people speak about my work.
+  * Next one is the review section, when people speak about my work.
 
   ![Screenshot of the Review section](assets/images/readme_images/review.png)
 
