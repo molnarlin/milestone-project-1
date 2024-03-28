@@ -36,7 +36,11 @@ html, body {
 .blockquote {
     font-family: "Truculenta", sans-serif;
 }
-  
+
+.blockquote-footer {
+  color: #000;
+}
+
 #about-me-text {
      font-family: "Truculenta", sans-serif;
      color: #034f84;
@@ -59,6 +63,22 @@ img:hover {
   background: #ffaec8 !important;
   clear: both;
   opacity: 0.85;
+}
+
+#resume {
+  color:#034f84;
+}
+
+.modal {
+  z-index: 1;
+}
+
+.bg-info {
+  color: #000;
+}
+
+.bg-warning {
+  color: #000;
 }
 
 /* Footer styling */
@@ -89,7 +109,7 @@ footer{
 
 /* Form styling */
 #contact-header{
-      color:#ffffff;
+      color: #034f84;
       padding-top: 3rem;
       padding-bottom: 2rem;
 }
