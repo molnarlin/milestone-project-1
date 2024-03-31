@@ -9,7 +9,6 @@ html, body {
     letter-spacing: 5px;
     color: #034f84;
     background-color: #ffffff;
-    z-index: 1;
 }
   
 .navbar-nav li a:hover {
@@ -38,7 +37,7 @@ html, body {
 }
 
 .blockquote-footer {
-  color: #000;
+  color: #000 !important;
 }
 
 #about-me-text {
@@ -62,23 +61,18 @@ img:hover {
   height: 15rem;
   background: #ffaec8 !important;
   clear: both;
-  opacity: 0.85;
 }
 
 #resume {
   color:#034f84;
 }
 
-.modal {
-  z-index: 1;
-}
-
 .bg-info {
-  color: #000;
+  color: #000 !important;
 }
 
 .bg-warning {
-  color: #000;
+  color: #000 !important;
 }
 
 /* Footer styling */
