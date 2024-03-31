@@ -63,10 +63,15 @@ I used Balsamiq to create my wireframe, which you can check here [Link to the wi
 ## 3. Technologies used
 I used HTML, CSS, and Bootstrap for this project. Balsamiq for my wireframe. Bootstrap and CSS media queries ensure, that the layout changes appropriately across different device screen sizes.
 ## 4. Testing
-* I used official W3C validator for HTML.
-* Official (jigsaw) validator for CSS.
-* Accessibility Checker.
+I was running several test to see my website is
+* I used official W3C validator for testing HTML, and there are no errors.
+![Screenshot of W3C HTML test result](assets/images/test%20results/test-html.png)
+* Official (jigsaw) validator for testing CSS, and there are no main errors.
+![Screenshot of W3C CSS test result](assets/images/test%20results/test-CSS.png)
+* Accessibility Checker, so my website is accessable for all kind of users, and .
+![Screenshot of accessibility checker result](assets/images/test%20results/)
 * Lighthouse report in Google Chrome.
+![Screenshot of Lighthouse report result](assets/images/test%20results/lighthouse%20report.png)
 ## 5. Deployment
 I deployed the project with GitHub pages.
 ## 6. Credits
