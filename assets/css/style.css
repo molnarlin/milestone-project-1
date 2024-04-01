@@ -51,10 +51,6 @@ img {
   height: auto;
 }
 
-img:hover {
-  transform: scaleX(-1);
-}
-
 /* Card styling*/
 .card{
 	width: 22rem;
