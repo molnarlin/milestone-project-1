@@ -10,6 +10,7 @@ As a user, I can easily navigate through the webpage, scroll down, and learn abo
 ### Design choices
 This is a User Centric Frontend Development project. Used semantic markup to structure HTML code. The code is split into readable, separated lines, and I included comments in the main sections. I used Bootstrap in the design, which has lots of pre-written code, so speeds up the process, gives ideas to the layout, compatible with the browsers, and it's easy to make a responsive design with it.
 * I used Lato and Truculenta from fonts.google.com. These fonts are easy to read on various device screens.
+![Screenshot of Google fonts](assets/images/readme_images/google_fonts.png)
 * I used blue (`#034f84` and `#92a8d1`), grey(`#6C757D`), pink (`#ffaec8`) white (`#ffffff`), and black (`#000000`) colour palette for this project. This colour combination has a sense of tranquillity effect on readers. 
 ![Screenshot of the color palette](assets/images/readme_images/color_palette.png)
 * This is a single-page design, which I think is more modern. People can just scroll down if they want to read more. My webpage doesn't contain too much information, and recruiters can read it on mobile devices as well.
