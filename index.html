@@ -61,8 +61,7 @@
       <div class="col-md-3 col-sm-8 mx-auto fs-4 font-weight-bold" id="about-me-text">
         <h2>About me</h2>
         <p>I'm a Full Stack Developer student. I started to learn IT in 2020, and I found it very interesting, so I was looking for ways to learn it, and I was taking part in several basic coding 
-          courses. At the moment I study at Code Institute and Runshaw College.</p>
-          <p>My plan is, that this is going to be my portfolio website. I like to solve problems, and I never get tired of learning new things every day.</p>
+          courses. At the moment I study at Code Institute and Runshaw College. My plan is, that this is going to be my portfolio website. I like to solve problems, and I never get tired of learning new things every day.</p>
       </div>
       </div>
    </div>
@@ -480,18 +479,18 @@
     <form method="POST" action="https://formdump.codeinstitute.net/">
     <h2 id="contact-header" class="font-weight-bold">Contact me</h2>
   <div class="mb-3 input-group">
-    <span class="input-group-text" id="name1">Name:</span>
-    <input type="text" class="form-control" name="name1" id="nameInput" placeholder="Your name" required>
+    <label class="input-group-text" id="name1">Name:</label>
+    <input type="text" class="form-control" name="name1"  for="name1" id="nameInput" placeholder="Your name" required>
   </div>
   <div class="mb-3 input-group">
-    <span class="input-group-text" id="email1">Email:</span>
-    <input type="email" class="form-control" id="emailInput" name="email1" placeholder="Your email address" required>
+    <label class="input-group-text" id="email1">Email:</label>
+    <input type="email" class="form-control" id="emailInput" for="email1" name="email1" placeholder="Your email address" required>
   </div>
   <div class="mb-3 input-group">
     <textarea class="form-control" id="textInput" rows="3" placeholder="Please say a few words about your idea." required></textarea>
   </div>
   <div class="mb-3 input-group">
-    <button type="submit" onclick="alert('Your form has been submitted.')" class="btn btn-secondary mb-3" formtarget="_blank">Send</button>
+    <button id="submit" type="submit" onclick="this.disabled=true" class="btn btn-secondary mb-3" formtarget="_blank">Send</button>
     </div>
     </form>
   </div>
@@ -504,10 +503,10 @@
           <a class="btn btn-secondary btn-lg active pt-2" href="assets/attachments/Katalin-Molnár.pdf" target="_blank" role="button" aria-pressed="true">Download my CV in pdf</a>
       </div>
       <div class="fs-1 col-lg-4 col-md-6 offset-lg-3 offset-md-3 col-xs-8 offset-xs-2 d-flex align-items-center">
-        <a href="https://www.linkedin.com/in/katalin-molnar-b6a694165/" class="fa-brands fa-linkedin" target="_blank" aria-hidden="true"></a>
-        <a href="https://www.pinterest.co.uk/molnarlin/" class="fa-brands fa-pinterest" target="_blank" aria-hidden="true"></a>
-        <a href="https://github.com/molnarlin" class="fa-brands fa-github" target="_blank" aria-hidden="true"></a>
-        <a href="https://www.instagram.com/molnarlin0605/" class="fa-brands fa-instagram" target="_blank" aria-hidden="true"></a>
+        <a href="https://www.linkedin.com/in/katalin-molnar-b6a694165/" class="fa-brands fa-linkedin" target="_blank"></a>
+        <a href="https://www.pinterest.co.uk/molnarlin/" class="fa-brands fa-pinterest" target="_blank"></a>
+        <a href="https://github.com/molnarlin" class="fa-brands fa-github" target="_blank"></a>
+        <a href="https://www.instagram.com/molnarlin0605/" class="fa-brands fa-instagram" target="_blank"></a>
       </div>
       <div class="col-12 text-center py-2" id="copyright">
           <p>Copyright © Katalin Molnar 2024</p>

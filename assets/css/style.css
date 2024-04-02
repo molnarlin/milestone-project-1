@@ -70,6 +70,12 @@ img {
   color: #000 !important;
 }
 
+/*Submit button changes, when clicked*/
+
+#submit:checked {
+ opacity: 0.5;
+}
+
 /* Footer styling */
 footer{
     background: #034f84;

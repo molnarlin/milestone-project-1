@@ -68,9 +68,7 @@ I was running several test to see my website is
 ![Screenshot of W3C HTML test result](assets/images/test%20results/test-html.png)
 * Official (jigsaw) validator for testing CSS, and there are no main errors.
 ![Screenshot of W3C CSS test result](assets/images/test%20results/test-CSS.png)
-* Accessibility Checker, so my website is accessable for all kind of users, and .
-![Screenshot of accessibility checker result](assets/images/test%20results/)
-* Lighthouse report in Google Chrome.
+* Lighthouse report in Google Chrome. I checked the accessibility here. 
 ![Screenshot of Lighthouse report result](assets/images/test%20results/lighthouse%20report.png)
 ## 5. Deployment
 I deployed the project with GitHub pages.
