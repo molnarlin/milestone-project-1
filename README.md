@@ -62,7 +62,7 @@ I used Balsamiq to create my wireframe, which you can check here [Link to the wi
 ### 2.  Future features
 * I was thinking of connecting my GitHub projects to this site, so that future employers can check them out here, and they don't need to go to GitHub. 
 ## 3. Technologies used
-I used HTML, CSS, and Bootstrap for this project. Balsamiq for my wireframe. Bootstrap and CSS media queries ensure, that the layout changes appropriately across different device screen sizes.
+I used HTML to create the layout, the basic structure for the website. CSS to style the website, and Bootstrap to speed up the developing process and help with the accessibility and responsibility. I used Balsamiq for my wireframe, so I could think about the structure of my website, size the features, and see how thinks can work/function. Bootstrap and CSS media queries ensure, that the layout changes appropriately across different device screen sizes.
 ## 4. Testing
 I was running several tests to see if my website has no errors and is accessible to different users.
 * I used the official W3C validator for testing HTML, and there were no errors.
@@ -71,6 +71,7 @@ I was running several tests to see if my website has no errors and is accessible
 ![Screenshot of W3C CSS test result](assets/images/test%20results/test-CSS.png)
 * Lighthouse report in Google Chrome. I checked the accessibility here. 
 ![Screenshot of Lighthouse report result](assets/images/test%20results/lighthouse%20report.png)
+* I used Google Chrome to check my website on different screen sizes. I tried to increase and decrease the size and made changes regarding that. Toggle device toolbar in Inspect mode was very helpful.
 ## 5. Deployment
 I deployed the project with GitHub pages.
 ## 6. Credits
