@@ -72,6 +72,8 @@ I was running several tests to see if my website has no errors and is accessible
 * Lighthouse report in Google Chrome. I checked the accessibility here. 
 ![Screenshot of Lighthouse report result](assets/images/test%20results/lighthouse%20report.png)
 * I used Google Chrome to check my website on different screen sizes. I tried to increase and decrease the size and made changes regarding that. Toggle device toolbar in Inspect mode was very helpful.
+* Fixed bugs
+I came across couple of bugs 
 ## 5. Deployment
 I deployed the project with GitHub pages.
 ## 6. Credits
