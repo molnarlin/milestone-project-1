@@ -78,9 +78,50 @@ I used the official W3C validator for testing HTML, and there were no errors.
 ![Screenshot of phone view](readme_images/phone.png)
 ### 8.3. Fixed bugs
 I came across couple of bugs, and I give a short explanation, how I fixed them here.
-* Card elements wasn't responsible. 
-* Navigation bar was in fixed position, but 
+* Card elements wasn't responsible. When I copied the from Bootsrap, cards had fixed width.
+```HTML
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+```
+So I customized them with CSS, so they don't overlap on different screen sizes:
+```CSS
+.card{
+	width: 95%;
+  height: 15rem;
+  margin:auto 5%;
+}
+``` 
+* Navigation bar was in fixed position, but when I scrolled down, it was under other elements.
+```HTML
+<nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">Hidden brand</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      ...
+  </div>
+</nav>
+```
+I had to add sticky-top class, and this bug was fixed as well.
+```HTML
+<nav class="navbar navbar-expand-xl bg-body-tertiary py-2 w-100 border-0 rounded-0 fs-3 position-fixed sticky-top">
+```
 * Different inline elements were overlaping on small screens, so I moved them underneath eachother.
+I had problem with the cards, so I used col and offset classes from Bootstrap for different screen sizes, see an example below:
+```HTML
+<div class="d-sm-block col-lg-3 offset-lg-1 pt-5">
+```
 ### 8.4. Supported screens and browsers
 I used Google Chrome to check my website on different screen sizes. I tried to increase and decrease the size and made changes regarding that. Toggle device toolbar in Inspect mode was very helpful.
 ## 9. Deployment
