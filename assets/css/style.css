@@ -54,7 +54,7 @@ img {
 /* Card styling*/
 .card{
 	width: 95%;
-  height: 95%;
+  height: 15rem;
   background: #ffaec8 !important;
   margin:auto 5%;
 }
