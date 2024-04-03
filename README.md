@@ -60,6 +60,8 @@ I used Balsamiq to create my wireframe, which you can check here [Link to the wi
 * CSS to style the website.
 * Bootstrap to speed up the developing process and help with the accessibility and responsibility. Bootstrap and CSS media queries ensure, that the layout changes appropriately across different device screen sizes.
 * I used Balsamiq for my wireframe, so I could think about the structure of my website, size the features, and see how thinks can work/function. 
+* I used git for version control.
+* I used GitHub to save my repository and deploy my project online.
 ## 8. Testing
 I was running several tests to see if my website has no errors and is accessible to different users.
 ### 8.1. Code validation
@@ -127,15 +129,18 @@ I used Google Chrome to check my website on different screen sizes. I tried to i
 Bootstrap support most of the browsers on different devices, so it helped me to make my website more accessible. If you want to read more about this, [click here](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/#:~:text=Browsers%20and%20devices%201%20Supported%20browsers%20Bootstrap%20supports,7%20Android%20stock%20browser%20...%208%20Validators%20).
 ## 9. Deployment
 ### 9.1. via VS Code
+1. I created a folder for my project on the computer.
+2. I opened and created folders, files in this with the help of Visual Studio Code. 
+3. I saved all of the changes. 
+4. I could deploy the index.html file localy from this folder.
 ### 9.2. via GitHub Pages
-I deployed the project with GitHub pages.
+1. I connected Visual Studio Code with my GitHub account. 
+2. I commited and pushed all of my new code regularly to GitHub. 
+3. Inside the milestone-project-1 repository I went to Settings > Pages, and I deployed from the main branch.
+4. When my site was live, I could visit it from here. 
 ## 10. Credits
 * I have to say a big thank you to Runshaw College and Code Institute for guiding me and helping me with this project.
-* I used w3schools.com, fonts.google.com, and getbootstrap.com as a library. 
-* Content
-* Media
-* Code
-* Acknowledgement
+* I used w3schools.com, fonts.google.com, and getbootstrap.com as a library. I downloaded my own CV from Indeed.com.
 
 
 [def]: /assets/images/readme_images/intro.png
