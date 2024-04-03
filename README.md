@@ -124,6 +124,7 @@ I had problem with the cards, so I used col and offset classes from Bootstrap fo
 ```
 ### 8.4. Supported screens and browsers
 I used Google Chrome to check my website on different screen sizes. I tried to increase and decrease the size and made changes regarding that. Toggle device toolbar in Inspect mode was very helpful.
+Bootstrap support most of the browsers on different devices, so it helped me to make my website more accessible. If you want to read more about this, [click here](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/#:~:text=Browsers%20and%20devices%201%20Supported%20browsers%20Bootstrap%20supports,7%20Android%20stock%20browser%20...%208%20Validators%20).
 ## 9. Deployment
 ### 9.1. via VS Code
 ### 9.2. via GitHub Pages
