@@ -5,7 +5,7 @@ Hi! This is my portfolio website. I created a simple site about my skillsets and
 ### 1.2. Developer and business goals
 As a developer, I wanted to create a user-friendly website, so I tried to use more graphic elements than text, but something, that still explains my message, and is engaging. Also, this message should be well organized and readable in different screen sizes. So, if the content was too long, I broke it up into smaller pieces, which is easier to digest. This is a single-page design, which I think is more modern. People can just scroll down if they want to read more. My webpage doesn't contain too much information, and recruiters can read it on mobile devices as well.
 ## 2. User stories
-As a user, I can easily navigate through the webpage, scroll down, and learn about Katalin as a candidate for a job. I can use the main navigation menu and the layout helps me to read through and find information about Katalin. There are many graphics elements to guide my attention to the different contents on the page.
+As a visitor, I want learn about Katalin as a candidate for a job. I want to see her work history. I want to see her skillsets. I want to check her portfolio, and contact her for future job opportunities. I want to check her social media as well.
 ## 3. Features
 ### 3.1. Existing features
   * Easy to use navigation bar. It is in a fixed position on the top of the website. 
@@ -70,7 +70,12 @@ I used the official W3C validator for testing HTML, and there were no errors.
 * Lighthouse report in Google Chrome. I checked the accessibility, perfomance, best practices here. 
 ![Screenshot of Lighthouse report result](readme_images/test_results/lighthouse_report.png)
 ### 8.2. Test cases
-
+* On desktop computer the screen is very wide, so contents are mainly next to eachother, and everything is still readable.
+![Screenshot of desktop view](readme_images/desktop.png)
+* On tablets there is a bit less space, but some content can be next to eachother. I started to use the burger menu for the navigation bar.
+![Screenshot of tablet view](readme_images/tablet.png)
+* On phone there is little space, so I moved most of the contents underneath eachother.
+![Screenshot of phone view](readme_images/phone.png)
 ### 8.3. Fixed bugs
 I came across couple of bugs, and I give a short explanation, how I fixed them here.
 * Card elements wasn't responsible. 
