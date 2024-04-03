@@ -10,9 +10,9 @@ As a user, I can easily navigate through the webpage, scroll down, and learn abo
 ### Design choices
 This is a User Centric Frontend Development project. Used semantic markup to structure HTML code. The code is split into readable, separated lines, and I included comments in the main sections. I used Bootstrap in the design, which has lots of pre-written code, so speeds up the process, gives ideas to the layout, compatible with the browsers, and it's easy to make a responsive design with it.
 * I used Lato and Truculenta from fonts.google.com. These fonts are easy to read on various device screens.
-![Screenshot of Google fonts](assets/images/readme_images/google_fonts.png)
+![Screenshot of Google fonts](readme_images/google_fonts.png)
 * I used blue (`#034f84` and `#92a8d1`), grey(`#6C757D`), pink (`#ffaec8`) white (`#ffffff`), and black (`#000000`) colour palette for this project. This colour combination has a sense of tranquillity effect on readers. 
-![Screenshot of the color palette](assets/images/readme_images/color_palette.png)
+![Screenshot of the color palette](readme_images/color_palette.png)
 * This is a single-page design, which I think is more modern. People can just scroll down if they want to read more. My webpage doesn't contain too much information, and recruiters can read it on mobile devices as well.
 * Visual hierarchy
 First, the user can see the navigation menu at the top of the website. It contains links to different sections, and it's a fixed element, so it's visible to users all the time. After this I have the introduction section with my picture, a short description of my motivation, and what I'm doing at the moment. I have a quote as well, what is a good motivation for everyone. The next section is a short review of my work. After this, comes my resume section with my work experiences. In the next section, users can check my skills. After this, I have a short contact form if anybody wants to contact me. In the last section, I have a button to download my CV in PDF and links to my social media accounts.
@@ -26,39 +26,39 @@ I used Balsamiq to create my wireframe, which you can check here [Link to the wi
 ### 1. Existing features
   * Easy to use navigation bar. It is in a fixed position on the top of the website. 
 
-  ![Screenshot of the navigation bar](assets/images/readme_images/navbar.png)
+  ![Screenshot of the navigation bar](readme_images/navbar.png)
 
   * I picture of me and some introduction text with a quote, so people can learn more about me.
 
-  ![Screenshot of the About me part](assets/images/readme_images/intro.png)
+  ![Screenshot of the About me part](readme_images/intro.png)
 
   * The next one is the review section when people speak about my work.
 
-  ![Screenshot of the Review section](assets/images/readme_images/review.png)
+  ![Screenshot of the Review section](readme_images/review.png)
 
   * In the Resume section I categorized my job experiences, so people can open and read only small parts of my resume. 
 
-  ![Screenshot of resume section](assets/images/readme_images/resume.png)
+  ![Screenshot of resume section](readme_images/resume.png)
 
   If they click on See more, a model opens for them.
 
-  ![Screenshot of a modal](assets/images/readme_images/resume_modal.png)
+  ![Screenshot of a modal](readme_images/resume_modal.png)
 
   * I made a list of my skills in the skills section with colourful graphics.
 
-  ![Screenshot of the skills section](assets/images/readme_images/skills.png)
+  ![Screenshot of the skills section](readme_images/skills.png)
 
   * I included a Contact form to fill in, and people can email me if they have an idea of a project or want to ask me anything. 
 
-  ![Screenshot of the contact form](assets/images/readme_images/contact_form.png)
+  ![Screenshot of the contact form](readme_images/contact_form.png)
 
   * Downloadable CV, if anybody needs my CV in pdf format. 
 
-  ![Screenshot of the download button](assets/images/readme_images/cv_download.png)
+  ![Screenshot of the download button](readme_images/cv_download.png)
 
   * Links to my social media sites, which open in separate tabs. 
 
-  ![Screenshot of social media buttons](assets/images/readme_images/social_media.png)
+  ![Screenshot of social media buttons](readme_images/social_media.png)
 ### 2.  Future features
 * I was thinking of connecting my GitHub projects to this site, so that future employers can check them out here, and they don't need to go to GitHub. 
 ## 3. Technologies used
@@ -66,11 +66,11 @@ I used HTML to create the layout, the basic structure for the website. CSS to st
 ## 4. Testing
 I was running several tests to see if my website has no errors and is accessible to different users.
 * I used the official W3C validator for testing HTML, and there were no errors.
-![Screenshot of W3C HTML test result](assets/images/test%20results/test-html.png)
+![Screenshot of W3C HTML test result](test_results/test_html.png)
 * Official (jigsaw) validator for testing CSS, and there were no main errors.
-![Screenshot of W3C CSS test result](assets/images/test%20results/test-CSS.png)
+![Screenshot of W3C CSS test result](test_results/test_jigsaw.png)
 * Lighthouse report in Google Chrome. I checked the accessibility here. 
-![Screenshot of Lighthouse report result](assets/images/test%20results/lighthouse%20report.png)
+![Screenshot of Lighthouse report result](test_results/lighthouse_report.png)
 * I used Google Chrome to check my website on different screen sizes. I tried to increase and decrease the size and made changes regarding that. Toggle device toolbar in Inspect mode was very helpful.
 * Fixed bugs
 I came across couple of bugs 
