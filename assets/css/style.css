@@ -53,9 +53,10 @@ img {
 
 /* Card styling*/
 .card{
-	width: 22rem;
-  height: 15rem;
+	width: 95%;
+  height: 95%;
   background: #ffaec8 !important;
+  margin: 5%;
 }
 
 #resume {
