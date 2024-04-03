@@ -141,6 +141,7 @@ Bootstrap support most of the browsers on different devices, so it helped me to 
 ## 10. Credits
 * I have to say a big thank you to Runshaw College and Code Institute for guiding me and helping me with this project.
 * I used w3schools.com, fonts.google.com, and getbootstrap.com as a library. I downloaded my own CV from Indeed.com.
+* I used stackoverflow.com to check some issues with my website.
 
 
 [def]: /assets/images/readme_images/intro.png
