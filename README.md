@@ -66,11 +66,11 @@ I used HTML to create the layout, the basic structure for the website. CSS to st
 ## 4. Testing
 I was running several tests to see if my website has no errors and is accessible to different users.
 * I used the official W3C validator for testing HTML, and there were no errors.
-![Screenshot of W3C HTML test result](test_results/test_html.png)
+![Screenshot of W3C HTML test result](readme_images/test_results/test_html.png)
 * Official (jigsaw) validator for testing CSS, and there were no main errors.
-![Screenshot of W3C CSS test result](test_results/test_jigsaw.png)
+![Screenshot of W3C CSS test result](readme_images/test_results/test_jigsaw.png)
 * Lighthouse report in Google Chrome. I checked the accessibility here. 
-![Screenshot of Lighthouse report result](test_results/lighthouse_report.png)
+![Screenshot of Lighthouse report result](readme_images/test_results/lighthouse_report.png)
 * I used Google Chrome to check my website on different screen sizes. I tried to increase and decrease the size and made changes regarding that. Toggle device toolbar in Inspect mode was very helpful.
 * Fixed bugs
 I came across couple of bugs 
