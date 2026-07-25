@@ -26,9 +26,6 @@
             <a class="nav-link" aria-current="page" href="index.html">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#what-people-say">What people say</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#resume">Resumé</a>
           </li>
           <li class="nav-item">
@@ -438,23 +435,27 @@
 <div class="row m-0">
   <div class="col-md-6 col-sm-8 col-lg-4 offset-md-3 offset-sm-2 offset-lg-4 p-0">
 <!--Contact form, code from Bootstrap -->
-    <form method="POST" action="https://formdump.codeinstitute.net/"> <!--action dump form from Code Institute-->
-    <h2 id="contact-header" class="font-weight-bold">Contact me (this is just a fake contact form)</h2>
+    <form method="POST" action="https://formspree.io/f/xbdnpppy">
+  <h2 id="contact-header" class="font-weight-bold">Contact me</h2>
+
   <div class="mb-3 input-group">
-    <label class="input-group-text" id="name1" for="nameInput">Name:</label>
+    <label class="input-group-text" for="nameInput">Name:</label>
     <input type="text" class="form-control" name="name" id="nameInput" placeholder="Your name" required>
   </div>
+
   <div class="mb-3 input-group">
-    <label class="input-group-text" id="email1" for="emailInput">Email:</label>
-    <input type="email" class="form-control" id="emailInput" name="email" placeholder="Your email address" required>
+    <label class="input-group-text" for="emailInput">Email:</label>
+    <input type="email" class="form-control" name="email" id="emailInput" placeholder="Your email address" required>
   </div>
+
   <div class="mb-3 input-group">
-    <textarea class="form-control" id="textInput" rows="3" placeholder=" Please say a few words about your idea." required></textarea>
+    <textarea class="form-control" name="message" id="textInput" rows="3" placeholder="Please say a few words about your idea." required></textarea>
   </div>
+
   <div class="mb-3 input-group">
     <button id="submit" type="submit" class="btn btn-secondary mb-3">Send</button>
-    </div>
-    </form>
+  </div>
+</form>
   </div>
 </div>
 </div>
